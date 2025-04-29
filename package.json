@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "remix vite:build",
+    "dev": "remix vite:dev",
+    "start": "remix-serve ./build/server/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +27,9 @@
     "isbot": "^4.4.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.16.5",
+    "vite": "^6.3.3"
   }
 }
