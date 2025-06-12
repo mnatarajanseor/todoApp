@@ -1,2 +1,2 @@
 # setup-web-project
-a new project
+a new project started
